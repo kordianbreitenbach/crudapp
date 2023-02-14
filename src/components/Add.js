@@ -17,7 +17,7 @@ const Add=()=>{
          let b=lastName;
          Workers.push({id:uniqueId,Name:a,LastName:b});
 
-         history('/');
+         history('/crudapp');
 
     };
     return(

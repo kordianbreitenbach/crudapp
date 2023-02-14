@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
      <Router>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/crudapp" element={<Home/>}></Route>
         <Route path="/create" element={<Add/>}></Route>
         <Route path="/edit" element={<Edit/>}></Route>
       </Routes>

@@ -20,11 +20,11 @@ const Edit =()=>{
          a.Name=Name;
          a.LastName=lastName;
 
-          history('/');
+          history('/crudapp');
  
      };
      useEffect(()=>{
-        setName(localStorage.getItem('name'));
+        setName(localStorage.getItem('Name'));
         setLastName(localStorage.getItem('LastName'));
         setId(localStorage.getItem('id'));
      },[])

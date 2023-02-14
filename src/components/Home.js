@@ -11,7 +11,7 @@ const Home =()=>{
         return e.id
       }).indexOf(id);
       Workers.splice(index,1);
-      history('/');
+      history('/crudapp');
    
  }
  const handleEdit=(id,Name,LastName)=>{
